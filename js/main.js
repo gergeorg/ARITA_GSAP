@@ -25,19 +25,19 @@ const init = () => {
   }
 
 
-
-
-
-
-
-
   const showNextSlide = () => {
     bgSlides('down')
+    imagesSlides('down')
+    shapeSlides('down')
+    textSlides('down')
     console.log('next');
   }
 
   const showPrevSlide = () => {
     bgSlides('up')
+    imagesSlides('up')
+    shapeSlides('up')
+    textSlides('up')
     console.log('prev');
   }
 
